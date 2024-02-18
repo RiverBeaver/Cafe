@@ -1,0 +1,47 @@
+html {
+  font-family: "Poppins";
+}
+html body {
+  margin: 0;
+}
+html a {
+  color: #000000;
+  text-decoration: none;
+}
+html input {
+  font-family: "Poppins";
+  border: none;
+  outline: none;
+}
+html .introduction header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1160px;
+  margin: auto;
+}
+html .introduction header div.logo {
+  height: 1.75rem;
+  width: 20rem;
+}
+html .introduction header nav {
+  display: flex;
+  gap: 1.5rem;
+}
+html .introduction header nav a.active {
+  color: #FF902B;
+}
+html .introduction header div.search-and-cart {
+  display: inline-flex;
+  gap: 1.5rem;
+}
+html .introduction header div.search-and-cart div.search {
+  display: inline-flex;
+  gap: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 2rem;
+  background-color: #FFFFFF;
+  box-shadow: 6px 2px 24px 0 rgba(0, 0, 0, 0.13);
+}
+html .introduction header div.search-and-cart div.search img {
+  vertical-align: middle;
+}/*# sourceMappingURL=style.css.map */
