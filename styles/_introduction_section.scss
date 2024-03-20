@@ -1,0 +1,55 @@
+section {
+    display: flex;
+    align-items: center;
+    margin: 5rem 5vw;
+    gap: 10rem;
+    margin-left: max(4rem, 5vw);
+
+    div {
+        h1 {
+            font-size: 2.75rem;
+
+            strong {
+                color: $orange;
+            }
+        }
+        p {
+            color: $grey;
+            margin-bottom: 2rem;
+        }
+        .buttons {
+            display: flex;
+            gap: 2.75rem;
+            align-items: center;
+
+            button.order-now {
+                display: flex;
+                align-items: center;
+                gap: 0.75rem;
+
+                background-color: $black;
+                padding: 0.75rem 2rem;
+                border: none;
+                border-radius: calc(0.75rem + 22px / 2);
+
+                span {
+                    color: $white;
+                    font-size: 0.75rem;
+                }
+                img {
+                    width: 22px;
+                }
+            }
+            button.more-menu {
+                background-color: transparent;
+                border: none;
+                color: $orange-light;
+                font-size: 0.75rem;
+            }
+        }
+
+    }
+    img {
+        width: 45%;
+    }
+}

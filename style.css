@@ -1,12 +1,16 @@
 html {
   font-family: "Poppins";
+  color: #2F2105;
 }
 html body {
   margin: 0;
 }
 html a {
-  color: #000000;
+  color: #2F2105;
   text-decoration: none;
+}
+html button {
+  cursor: pointer;
 }
 html input {
   font-family: "Poppins";
@@ -14,18 +18,20 @@ html input {
   outline: none;
 }
 html .introduction header {
+  padding-top: 1rem;
   display: flex;
   justify-content: space-between;
-  max-width: 1160px;
-  margin: auto;
+  margin: 0 5vw;
+  margin-left: max(4rem, 5vw);
 }
 html .introduction header div.logo {
-  height: 1.75rem;
+  height: 2.25rem;
   width: 20rem;
 }
 html .introduction header nav {
   display: flex;
   gap: 1.5rem;
+  align-items: center;
 }
 html .introduction header nav a.active {
   color: #FF902B;
@@ -44,4 +50,51 @@ html .introduction header div.search-and-cart div.search {
 }
 html .introduction header div.search-and-cart div.search img {
   vertical-align: middle;
+}
+html .introduction section {
+  display: flex;
+  align-items: center;
+  margin: 5rem 5vw;
+  gap: 10rem;
+  margin-left: max(4rem, 5vw);
+}
+html .introduction section div h1 {
+  font-size: 2.75rem;
+}
+html .introduction section div h1 strong {
+  color: #FF902B;
+}
+html .introduction section div p {
+  color: #7E7D7A;
+  margin-bottom: 2rem;
+}
+html .introduction section div .buttons {
+  display: flex;
+  gap: 2.75rem;
+  align-items: center;
+}
+html .introduction section div .buttons button.order-now {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: #2F2105;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: calc(0.75rem + 11px);
+}
+html .introduction section div .buttons button.order-now span {
+  color: #FFFFFF;
+  font-size: 0.75rem;
+}
+html .introduction section div .buttons button.order-now img {
+  width: 22px;
+}
+html .introduction section div .buttons button.more-menu {
+  background-color: transparent;
+  border: none;
+  color: #F4AE26;
+  font-size: 0.75rem;
+}
+html .introduction section img {
+  width: 45%;
 }/*# sourceMappingURL=style.css.map */

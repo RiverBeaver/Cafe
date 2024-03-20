@@ -1,12 +1,19 @@
+@import "styles/var.scss";
+
 html {
     font-family: "Poppins";
+    color: $black;
 
     body {
         margin: 0;
     }
     a {
-        color: #000000;
+        color: $black;
         text-decoration: none;
+    }
+
+    button {
+        cursor: pointer;
     }
 
     input {
@@ -16,10 +23,8 @@ html {
     }
 
     .introduction {
-        
-
         @import "styles/header.scss";
-
+        @import "styles/introduction_section.scss";
     }
     
 
