@@ -1,0 +1,4 @@
+@mixin flex-margin-left {
+    display: flex;
+    margin-left: max(4rem, 5vw);
+}

@@ -1,0 +1,22 @@
+section.popular-now {
+    @include flex-margin-left;
+    flex-direction: column;
+    gap: 2rem;
+    h2 {
+        font-size: 2rem;
+        letter-spacing: 0.125rem;
+        text-shadow: 0 0 10px $accent;
+    }
+
+    .popular-now-product {
+        display: flex;
+        gap: 2.25rem;
+
+        .product {
+            outline: solid 6px rgba(255, 255, 255, 0.4);
+
+            @import "addition/product.scss";
+        }
+        
+    }
+}

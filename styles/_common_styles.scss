@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    font-family: "Poppins";
+    color: $black;
+}
+a {
+    color: $black;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+input {
+    font-family: "Poppins";
+    border: none;
+    outline: none;
+}

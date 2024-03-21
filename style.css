@@ -1,9 +1,7 @@
-html {
-  font-family: "Poppins";
-  color: #2F2105;
-}
 html body {
   margin: 0;
+  font-family: "Poppins";
+  color: #2F2105;
 }
 html a {
   color: #2F2105;
@@ -17,12 +15,21 @@ html input {
   border: none;
   outline: none;
 }
+html .introduction {
+  background-image: url(assets/images/bg-image.png);
+  background-repeat: no-repeat;
+}
+@media (min-width: 1270px) {
+  html .introduction {
+    background-size: 100vw;
+  }
+}
 html .introduction header {
   padding-top: 1rem;
-  display: flex;
-  justify-content: space-between;
   margin: 0 5vw;
+  display: flex;
   margin-left: max(4rem, 5vw);
+  justify-content: space-between;
 }
 html .introduction header div.logo {
   height: 2.25rem;
@@ -51,29 +58,29 @@ html .introduction header div.search-and-cart div.search {
 html .introduction header div.search-and-cart div.search img {
   vertical-align: middle;
 }
-html .introduction section {
-  display: flex;
-  align-items: center;
+html .introduction section.introduction-section {
   margin: 5rem 5vw;
-  gap: 10rem;
+  display: flex;
   margin-left: max(4rem, 5vw);
+  align-items: center;
+  gap: 10rem;
 }
-html .introduction section div h1 {
+html .introduction section.introduction-section div h1 {
   font-size: 2.75rem;
 }
-html .introduction section div h1 strong {
+html .introduction section.introduction-section div h1 strong {
   color: #FF902B;
 }
-html .introduction section div p {
+html .introduction section.introduction-section div p {
   color: #7E7D7A;
   margin-bottom: 2rem;
 }
-html .introduction section div .buttons {
+html .introduction section.introduction-section div .buttons {
   display: flex;
   gap: 2.75rem;
   align-items: center;
 }
-html .introduction section div .buttons button.order-now {
+html .introduction section.introduction-section div .buttons button.order-now {
   display: flex;
   align-items: center;
   gap: 0.75rem;
@@ -82,19 +89,41 @@ html .introduction section div .buttons button.order-now {
   border: none;
   border-radius: calc(0.75rem + 11px);
 }
-html .introduction section div .buttons button.order-now span {
+html .introduction section.introduction-section div .buttons button.order-now span {
   color: #FFFFFF;
   font-size: 0.75rem;
 }
-html .introduction section div .buttons button.order-now img {
+html .introduction section.introduction-section div .buttons button.order-now img {
   width: 22px;
 }
-html .introduction section div .buttons button.more-menu {
+html .introduction section.introduction-section div .buttons button.more-menu {
   background-color: transparent;
   border: none;
   color: #F4AE26;
   font-size: 0.75rem;
 }
-html .introduction section img {
+html .introduction section.introduction-section img {
   width: 45%;
+}
+html .introduction section.popular-now {
+  display: flex;
+  margin-left: max(4rem, 5vw);
+  flex-direction: column;
+  gap: 2rem;
+}
+html .introduction section.popular-now h2 {
+  font-size: 2rem;
+  letter-spacing: 0.125rem;
+  text-shadow: 0 0 10px #F9D9AA;
+}
+html .introduction section.popular-now .popular-now-product {
+  display: flex;
+  gap: 2.25rem;
+}
+html .introduction section.popular-now .popular-now-product .product {
+  outline: solid 6px rgba(255, 255, 255, 0.4);
+}
+html .introduction section.popular-now .popular-now-product .product {
+  border-radius: 0.75rem;
+  background-color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */

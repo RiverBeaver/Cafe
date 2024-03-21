@@ -1,9 +1,8 @@
-section {
-    display: flex;
-    align-items: center;
+section.introduction-section {
     margin: 5rem 5vw;
+    @include flex-margin-left;
+    align-items: center;
     gap: 10rem;
-    margin-left: max(4rem, 5vw);
 
     div {
         h1 {
