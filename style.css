@@ -8,6 +8,8 @@ html a {
   text-decoration: none;
 }
 html button {
+  background-color: transparent;
+  border: none;
   cursor: pointer;
 }
 html input {
@@ -92,6 +94,7 @@ html .introduction section.introduction-section div .buttons button.order-now {
 html .introduction section.introduction-section div .buttons button.order-now span {
   color: #FFFFFF;
   font-size: 0.75rem;
+  font-weight: 600;
 }
 html .introduction section.introduction-section div .buttons button.order-now img {
   width: 22px;
@@ -101,6 +104,7 @@ html .introduction section.introduction-section div .buttons button.more-menu {
   border: none;
   color: #F4AE26;
   font-size: 0.75rem;
+  font-weight: bold;
 }
 html .introduction section.introduction-section img {
   width: 45%;
@@ -110,6 +114,9 @@ html .introduction section.popular-now {
   margin-left: max(4rem, 5vw);
   flex-direction: column;
   gap: 2rem;
+  padding-bottom: 5.875rem;
+  position: relative;
+  margin-right: 5.25rem;
 }
 html .introduction section.popular-now h2 {
   font-size: 2rem;
@@ -118,7 +125,9 @@ html .introduction section.popular-now h2 {
 }
 html .introduction section.popular-now .popular-now-product {
   display: flex;
+  justify-content: center;
   gap: 2.25rem;
+  flex-wrap: wrap;
 }
 html .introduction section.popular-now .popular-now-product .product {
   outline: solid 6px rgba(255, 255, 255, 0.4);
@@ -126,4 +135,59 @@ html .introduction section.popular-now .popular-now-product .product {
 html .introduction section.popular-now .popular-now-product .product {
   border-radius: 0.75rem;
   background-color: #FFFFFF;
+  padding: 1.5rem 1.125rem;
+  position: relative;
+}
+html .introduction section.popular-now .popular-now-product .product div.star {
+  position: absolute;
+  background-color: #FFFFFF;
+  outline: solid 0.25rem rgba(255, 255, 255, 0.7);
+  border-radius: 1rem;
+  padding: 0.25rem 0.625rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  display: flex;
+  gap: 0.25rem;
+  top: 2.25rem;
+  left: 1.875rem;
+}
+html .introduction section.popular-now .popular-now-product .product div.name-and-price {
+  display: flex;
+  justify-content: space-between;
+}
+html .introduction section.popular-now .popular-now-product .product div.name-and-price .name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+html .introduction section.popular-now .popular-now-product .product div.name-and-price .price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+html .introduction section.popular-now .popular-now-product .product div.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html .introduction section.popular-now .popular-now-product .product div.icons div.temp {
+  display: flex;
+  gap: 1.5rem;
+}
+html .introduction section.popular-now .popular-now-product .product div.icons div.temp > button {
+  padding: 0.25rem 1rem;
+  font-weight: 600;
+  color: #F4AE26;
+  border: solid 0.125rem #F4AE26;
+  border-radius: 0.5rem;
+}
+html .introduction section.popular-now div.figure-at-back {
+  position: absolute;
+  bottom: 0;
+  left: -3rem;
+  right: 3rem;
+  border-radius: 4rem 23rem 4rem 4rem/4rem 9rem 4rem 4rem;
+  height: 20rem;
+  border-left: 95vw solid rgb(249, 217, 170);
+  border-top: 5rem solid transparent;
 }/*# sourceMappingURL=style.css.map */
